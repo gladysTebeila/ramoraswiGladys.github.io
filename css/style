@@ -1,0 +1,105 @@
+#bodyT {
+    background-attachment: fixed;
+    background-size: auto;
+    background-color: blue;
+}
+
+#headerTable {
+    width: 100%;
+    background: url(./gladImages/glad.jpg);
+    background-color: azure;
+    opacity: 0.75;
+    color: red;
+}
+header {
+    background-color: #999;
+    padding: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: red;
+}
+.logo {
+    width: 80px;
+}
+h1{
+    color: red;
+    background-color: blue;
+}
+nav {
+    margin-right: 25px;
+}
+
+a {
+    margin-right: 25px;
+}
+
+video {
+    width: 100%;
+}
+
+#glad {
+    width: 100%;
+    text-align: right;
+    background-color: azure;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 150px;
+    color: red;
+}
+
+#mainTable {
+    width: 100%;
+    background-color: honeydew;
+}
+
+#userImage {
+    width: 500px;
+    border: 10px solid transparent;
+    padding: 20px;
+    border-image: url(border.jpg) 30 stretch;
+}
+
+#gladT {
+    width: 80px;
+}
+
+.bioBox {
+    width: 100%;
+    text-align: left;
+    text-decoration-color: chartreuse;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: double;
+    text-decoration-line: underline;
+}
+
+.btn {
+    padding: 16px;
+    border-radius: 10px;
+    font-size: medium;
+    background-color: coral;
+}
+
+.footerText {
+    text-align: center;
+    background-color: tomato;
+}
+
+.TAbout {
+    text-align: left;
+    width: 100%;
+}
+
+.footer {
+    background-position: bottom;
+    background-color: red;
+    height: 200px;
+}
+
+.row {
+    background-position: bottom;
+    text-align: center;
+    text-decoration-color: yellow;
+}

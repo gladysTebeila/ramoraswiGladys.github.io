@@ -1,0 +1,96 @@
+ //Statements
+ var x = 5,
+     p = 9,
+     h = 10;
+ let name = 'Gladys';
+ let subject = 'Tebeila';
+ console.log(name, subject, year)
+
+ //Statement closes
+
+ //Functions Open
+ function gladFuncton() {
+     let t = 2022;
+     document.getElementById('test1').outerHTML = 'Welcome to My site';
+     document.getElementById('test2').outerHTML = t;
+ }
+
+ function thaboFuncton() {
+     let firstName = 'Ramoraswi',
+         lastName = 'Tebeila';
+     document.getElementById('test3').outerHTML = 'Welcome to My site';
+     document.getElementById('test4').outerHTML = firstName + " " + lastName;
+ }
+
+ //Functions closes
+
+ //Variable Open
+ let contactsInfomation = {
+     lastName: 'Tebeila',
+     firstName: 'Ramoraswi',
+     secondName: 'Gladys',
+     email: 'magladtebeila@gmail.com',
+     phoneNumber: '08157561292',
+     location: Tembisa,
+     married: 'None',
+ }
+ console.log(contactsInfomation);
+
+ if (contactsInfomation.married) {
+     document.getElementById('test6').outerHTML = "<p style = 'color: yellow;'>" + contactsInfomation.lastName + ' ' + contactsInfomation.firstName + ' ' + contactsInfomation.secondName + ' ' + 'she Married' + "</p> ";
+ } else {
+     document.getElementById('test7').outerHTML = "<p sytle='color: lemon;'>" + contactsInfomation.lastName + ' ' + contactsInfomation.firstName + ' ' + contactsInfomation.secondName + ' ' + 'she Single' + "</p>";
+ }
+ //Constant Variable
+ const gladItems = ['Ramoraswi', 'Gladys', 'Tebeila']
+ console.log(gladItems);
+ const gladysItems = [{
+     item: 'Ramoraswi'
+ }, {
+     item: 'Gladys'
+ }, {
+     item: 'Tebeila'
+ }]
+ console.log(gladysItems);
+ const tebeilaItems = ['Tebeila', 'Tebeila2']
+ console.log(typeof tebeilaItems);
+
+ //New way to declare array
+
+ //const shoppingList = new Array('Apples','Bananas','Avocado');
+ const shoppingList = []
+ shoppingList[0] = {
+     img: './img/thabo.jpg',
+     item: 'Apples',
+     price: 25.00,
+     isBought: false
+ };
+ shoppingList[1] = {
+     item: 'Bananas',
+     price: 65.80.toFixed(2),
+     isBought: true
+ };
+
+ for (let i = 0; i < gladItems.length; i++) {
+     console.log(gladItems[i]);
+ }
+
+ let listTerms = "<ul>"
+ for (let i = 0; i < gladItems.length; i++) {
+     listTerms += "<li>" + gladItems[i].item + "</li>"
+
+ }
+ listTerms += "</ul>"
+
+ let listTerm = "<table bgcolor='red' style='margin:16px; border-radius: 16px;' border='1'>"
+ for (let i = 0; i < gladItems.length; i++) {
+     listTerms += "<tr><td>" + gladItems[i].item + "</td></tr>"
+     listTerms += "<tr><td colspan='2'><img src='./img/thabo.jpg' width='200px' /></td></tr> <tr><td><h3>" + gladItems[i].item + "</h3></td></tr>"
+
+ }
+ listTerms += "</table>"
+ document.getElementById('test9').outerHTML = listTerms;
+ console.log(shoppingList.length);
+ document.getElementById('test8').outerHTML = gladItems[0].item;
+ //Constant variable closed
+ //Variables closes
